@@ -1,0 +1,52 @@
+.form-text-area {
+  margin: 20px 0;
+}
+.close{
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.label{
+  margin-top: 30px;
+}
+.label-text{
+  color: #ffffff;
+}
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.inputfile + label {
+  font-size: 1.25em;
+  color: white;
+  background-color: #99a8b9;
+  padding: 3px 15px;
+  display: inline-block;
+  cursor: pointer;
+}
+.inputfile:focus + label,
+.inputfile + label:hover {
+  background-color: #818c97;
+}
+
+.wrap-image {
+  display: flex;
+  flex-wrap: wrap;
+}
+.image-preview {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+.close {
+  /* color: red; */
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 20px;
+  margin-top: -8px;
+  margin-right: -5px;
+}

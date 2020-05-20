@@ -1,0 +1,9 @@
+.link {
+    padding: 5px 15px;
+    margin: 1px;
+    text-align: center;
+    width:40% ;
+    background-color: #f6f6fa;
+    color: #000000;
+    outline: none;
+}

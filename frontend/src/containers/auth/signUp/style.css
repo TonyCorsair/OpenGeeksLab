@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-link {
+    color: gray;
+    padding: 0 5px;
+    text-decoration: underline;
+}
+
+.login-form-button {
+    padding: 4px 30px;
+    background-color: #c4c4c4;
+    outline: none;
+    color: #ffffff;
+}
+
+.wrap-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+

@@ -1,0 +1,67 @@
+div {
+  color: blue;
+}
+.left-sidebar{
+  height: 100vh;
+}
+.right-sidebar{
+  background-color: #e3e3e3;
+  padding: 0 35px;
+}
+.some-class {
+  font-size: 128px;
+  padding: 50px;
+}
+
+.ant-layout-sider-children .left-sidebar {
+  height: 100%;
+  margin-top: -0.1px;
+  padding-top: 0.1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  margin: 10px 0;
+  width: 150px;
+  padding: 0;
+}
+
+.ant-layout-content {
+  background-color: #ffffff;
+}
+
+.ant-layout-sider {
+  background-color: #e3e3e3;
+}
+
+.ant-layout-header {
+  background-color: #ffffff;
+}
+.ant-menu {
+  border-radius: 20px;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+  background-color: #1890ff;
+  color: white;
+  border-radius: 20px;
+  padding: 0 50px;
+}
+.ant-menu ant-menu-light ant-menu-root ant-menu-vertical{
+  border-radius: 20px;
+}
+
+.ant-menu-vertical .ant-menu-item{
+  background-color: #99a8b9;
+  border-radius: 20px;
+  text-align: center;
+  padding: 0 50px;
+  color: white;
+}
